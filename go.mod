@@ -1,4 +1,4 @@
-module corsit-backend-testing
+module github.com/adityasunny1189/golang-heroku-testing
 
 go 1.18
 
