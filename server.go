@@ -8,18 +8,18 @@ import (
 )
 
 type User struct {
-	name  string `json:"Name"`
-	email string `json:"Email"`
+	Name  string `json:"Name"`
+	Email string `json:"Email"`
 }
 
 var users = []User{
-	{name: "Aditya Pathak", email: "aditya@gmail.com"},
+	{Name: "Aditya Pathak", Email: "aditya@gmail.com"},
 }
 
 func AddUser(c *gin.Context) {
 	var user User
-	user.name = c.PostForm("name")
-	user.email = c.PostForm("email")
+	user.Name = c.PostForm("name")
+	user.Email = c.PostForm("email")
 	log.Println(user)
 	users = append(users, user)
 	log.Println(users)
