@@ -1,4 +1,4 @@
-module github.com/adityasunny1189/golang-heroku-testing
+module server
 
 go 1.18
 
