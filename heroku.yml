@@ -3,5 +3,5 @@ build:
     - go
 
 run:
-  web: golang-testing-corsit
+  web: golang-heroku-testing
     
