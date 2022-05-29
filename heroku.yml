@@ -3,5 +3,5 @@ build:
     - go
 
 run:
-  web: golang-heroku-gingonic-template
+  web: golang-testing-corsit
     
