@@ -35,5 +35,5 @@ func main() {
 	r := gin.Default()
 	r.GET("/", GetUsers)
 	r.POST("/adduser", AddUser)
-	r.Run("localhost:5000")
+	r.Run(":5000")
 }
